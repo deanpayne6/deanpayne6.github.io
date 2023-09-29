@@ -1,7 +1,26 @@
-<div class="main container-fluid">
-    <video class="background-video" [muted]="'muted'" autoplay loop>
-        <source  src="assets\STORM.mp4" type="video/mp4">
-    </video>
+<div class="video-overlay-wrapper">
+    <div class="video-container">
+        <video class="background-video" [muted]="'muted'" autoplay loop>
+            <source  src="assets\STORM.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="container picture-and-name">
+        <img src="assets\selfie.jpg">
+        <h2>Dean Payne</h2>
+        <h5>I have a strong interest in both cybersecurity and software development, blending security expertise with coding skills.</h5>
+    </div>
 </div>
+
+<!-- <div class="main container-fluid">
+
+    <div class="container">
+        <mat-card>
+            <mat-card-header>FitForge</mat-card-header>
+            <mat-card-content>
+                Developed a website...
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div> -->
 
 <router-outlet></router-outlet>
