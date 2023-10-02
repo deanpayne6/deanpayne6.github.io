@@ -10,7 +10,12 @@ body{
 }
 
 .main{
-    background-color: black;
+    background-color: rgb(124, 124, 124);
+}
+
+.main h1{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .video-overlay-wrapper{
@@ -93,3 +98,32 @@ body{
     color: white;
 }
 
+.project-card{
+    margin: 2vw;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}
+
+mat-card p{
+    margin-top: 1.5vw;
+}
+
+/* Define the custom width for smaller screens */
+@media (max-width: 767px) {
+    .project-card {
+        max-width: 60vw;
+    }
+
+    .project-card img{
+        max-height: 40vh;
+    }
+  }
+  
+  /* Define the custom width for md and up screens */
+  @media (min-width: 768px) {
+    .project-card {
+      max-width: 40vw;
+    }
+
+    .project-card img{
+        max-height: 17vh;
+    }
+  }
