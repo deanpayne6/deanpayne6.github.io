@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+
 html{
     background-color: black;
 }
@@ -15,7 +17,7 @@ body{
     position: relative;
     width: 100vw; /* 100% of the viewport width */
     height: 100vh; /* 100% of the viewport height */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -42,9 +44,9 @@ body{
     color: white; /* Text color for the overlay content */
     opacity: 1; /* 100% opacity for the overlay content */
     position: absolute; /* Position it absolutely within the video container */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Center using translate */  
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);  
     padding: 20px; /* Add padding as needed */
 }
 
@@ -57,9 +59,37 @@ body{
 }
 
 .picture-and-name h2{
-    font-size: 1.5em;
+    margin: 2.3vw 0;
+    font-size: 5vh;
+    font-family: 'Fira Mono', monospace;
+    letter-spacing: -.3vw;
 }
 
-.picture-and-name h5{
-    font-size: .6em;
+.picture-and-name p{
+    margin: 2vw 0;
+    font-size: 1.5vh;
+
 }
+
+.bottom-overlay{
+    position: relative;
+}
+
+.scroll-for-more{
+    position: absolute;
+    left: 50%; /* Move the left edge to the horizontal center of the outer container */
+    bottom: 0;
+    transform: translateX(-50%); /* Center the inner div horizontally */
+    display: flex;
+    align-items: center;
+}
+
+.scroll-for-more h3{
+    color: white;
+    margin: 0;
+}
+
+.scroll-for-more i{
+    color: white;
+}
+
