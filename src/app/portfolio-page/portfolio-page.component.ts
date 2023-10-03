@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio-page.component.css']
 })
 export class PortfolioPageComponent {
-
+  
 }

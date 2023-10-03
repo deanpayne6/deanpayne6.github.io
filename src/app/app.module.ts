@@ -8,6 +8,7 @@ import { PortfolioPageComponent } from './portfolio-page/portfolio-page.componen
 import {MatCardModule} from '@angular/material/card';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatButtonModule} from '@angular/material/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -23,6 +24,7 @@ import {MatButtonModule} from '@angular/material/button';
     MatCardModule,
     MatTabsModule,
     MatButtonModule,
+    BrowserAnimationsModule,
     
   ],
   providers: [],
